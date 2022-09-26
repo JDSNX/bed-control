@@ -142,7 +142,7 @@ class BedControl:
         cap.release()
         cv2.destroyAllWindows()
 
-parser = argparse.ArgumentParser(description="The study is based on the concepts and existing studies about image processing that covers facial recognition and object detection. The researchers use Raspberry Pi 4B for the programming work of the study and a good quality camera for facial recognition and object detection.")
+parser = argparse.ArgumentParser(description="The main focus of this study is based on eye detection systems. This study aims to design a system for the lifting mechanism of the hospital bed, television control switch, and emergency call.")
 parser.add_argument('-v','--video_channel', help='[0] for internal camera | [1] for external camera', default=0)
 parser.add_argument('-p','--predict-path', help='Path of classes file', required=True)
 
